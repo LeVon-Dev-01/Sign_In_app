@@ -59,9 +59,6 @@ public class LoginActivity extends AppCompatActivity {
     /**
      * Validates the login fields and authenticates the user.
      */
-    /**
-     * Validates login credentials and authenticates the user.
-     */
     private void loginUser() {
 
         String email = emailInput.getText().toString().trim();
